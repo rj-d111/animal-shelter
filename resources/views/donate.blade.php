@@ -45,7 +45,7 @@
                             <p class="mb-4">We're gratefully accepting donations of pet supplies such as pet food, leashes, food bowls, and even building materials like tarpaulin/lona/rope for shelter repairs.</p>
                             <p class="mb-4">You can set a schedule to drop off your donation or schedule a visit to donate in person.</p>
                             <p class="font-bold mb-4">Wilma Evangelista <br>SA 3127 016 797</p>
-                            <a href="{{url('appointment')}}" class="px-6 py-3 bg-blue-700 text-white font-medium rounded-md hover:bg-blue-800">Set Appointment</a>
+                            <a href="{{url('appointment')}}" class="px-6 py-3 bg-pink-500 text-white font-medium rounded-md hover:bg-pink-700">Set Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
             <h1 class="text-center text-pink-500 font-bold text-4xl">Lend a helping hand at the San Pedro Animal Shelter!</h1>
             <h1 class="text-center text-gray-800 dark:text-pink-200 text-2xl">Volunteers are needed for cleaning the shelter and feeding the animals.</h1>
             <div class="my-10 text-center">
-                <a href="#" class="px-20 py-3 bg-pink-500 font-medium rounded-md hover:bg-pink-700">Learn More</a>
+                <a href="#" class="text-white px-20 py-3 bg-pink-500 font-medium rounded-md hover:bg-pink-700">Learn More</a>
             </div>
         </div>
     </section>    

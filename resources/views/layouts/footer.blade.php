@@ -1,9 +1,9 @@
-<footer class="bg-blue-600 py-8">
+<footer class="bg-blue-300 dark:bg-blue-600 py-8">
     <div class="container mx-auto px-4">
         <!-- Top Section -->
         <div class="flex flex-col md:flex-row justify-between items-center mb-8">
             <div class="flex flex-col items-center md:items-start mb-4 md:mb-0">
-                <img src="images/SPAS_logo.png" alt="San Pedro Animal Shelter" class="h-16 mb-4">
+                <img src="images/SPAS_logo.png" alt="San Pedro Animal Shelter" class="h-16 mb-4 select-none">
                 <p class="text-center md:text-left">San Pedro Animal Shelter</p>
                 <p class="text-center md:text-left">119 Narra Road<br>San Pedro City, Laguna</p>
                 <div class="flex items-center justify-center md:justify-start">
@@ -42,7 +42,7 @@
         <div class="flex flex-col md:flex-row justify-between items-center py-4">
             <div class="text-center md:text-left">
                 <span>Built with </span>
-                <img src="images/InnoPetCarelogo.png" alt="Inno Pet Care" class="h-6 inline dark:invert">
+                <img src="images/InnoPetCarelogo.png" alt="Inno Pet Care" class="h-6 inline dark:invert select-none">
             </div>
             <div class="text-center md:text-right">
                 <p>Copyright © 2024 InnoVetCare, All Rights Reserved</p>

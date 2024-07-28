@@ -1,4 +1,4 @@
-<div x-data="{ open: false, profileOpen: false }" class="fixed w-full z-10">
+<div x-data="{ open: false, profileOpen: false }" class="fixed w-full z-10 select-none">
     {{-- 1st Navbar --}}
     <div class="bg-pink-400 hidden lg:block">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-end items-center py-1">
@@ -16,7 +16,7 @@
         </div>
     </div>
     {{-- 2nd Navbar --}}
-    <div class="dark:bg-slate-900">
+    <div class="bg-white dark:bg-slate-900">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-6">
                 <div class="flex items-center space-x-4">

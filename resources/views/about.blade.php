@@ -1,7 +1,7 @@
 @extends('layouts/app')
 
 @section('content')
-    <div class="container py-60 mx-auto rounded-lg shadow-lg w-full">
+    <div class="container py-60 mx-auto rounded-lg w-full">
         <div class="flex flex-col md:flex-row">
             <div class="md:w-4/10 mb-4 md:mb-0 flex justify-center">
                 <img src="{{ asset('images/william-dog.jpg') }}" alt="Wilma with dogs" class="md:w-3/4 lg:w-1/2 rounded-md">
@@ -27,7 +27,7 @@
     </div>
 
     <section id="learn-more"
-        class="flex flex-col items-center justify-center mx-auto p-4 bg-pink-100 dark:bg-slate-950 rounded-lg shadow-lg">
+        class="flex flex-col items-center justify-center mx-auto p-4 bg-pink-100 dark:bg-slate-950 rounded-lg">
         <h1 class="text-4xl text-pink-500 font-bold my-6">You can learn more about us!</h1>
         <iframe width="560" height="315"
             src="https://www.youtube.com/embed/ZXKhOicjQ_o?embeds_referring_euri=https%3A%2F%2Ftasteof-parisnotpares.my.canva.site%2F&source_ve_path=MjM4NTE"
@@ -36,7 +36,7 @@
     </section>
 
     <section id="animal-shelter-site" class="flex flex-col items-center justify-center mx-auto p-4 w-full">
-        <div class="md:w-1/2 w-full flex flex-col items-center">
+        <div class="md:w-1/2 w-full flex flex-col items-center select-none">
             <img src="{{ asset('images/san-pedro-site.jpg') }}" alt="San Pedro Animal Shelter Site" class="mx-auto">
             <div class="relative max-w-[180px] mx-auto -mt-16"> <!-- Adjust margin-top to fix the gap -->
                 <img src="{{ asset('images/SPAS_logo.png') }}" alt="SPAS Logo" class="mx-auto">

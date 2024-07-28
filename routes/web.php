@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdoptedPetController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\DB;
@@ -58,9 +59,12 @@ Route::get('/appointment', function () {
     return view('appointment');
 })->name('appointment.show');
 
-Route::get('/adopt', function () {
-    return view('adopt');
-})->name('adopt.show');
+// Route::get('/adopt', function () {
+//     return view('adopt');
+// })->name('adopt.show');
+
+Route::get('/adopt', [AdoptedPetController::class, 'index']);
+Route::get('/adopt/{id}', [AdoptedPetController::class, 'show']);
 
 Route::get('/donate', function () {
     return view('donate');

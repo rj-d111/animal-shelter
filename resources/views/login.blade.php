@@ -4,7 +4,7 @@
     <div class="min-h-screen flex items-center justify-center bg-cover bg-center pt-[calc(6rem+64px)]"
         style="background-image: url('{{ asset('images/login-background.png') }}');">
         <div
-            class="container text-gray-600 dark:text-slate-300 bg-white dark:bg-slate-950 bg-opacity-50 grid grid-cols-1 gap-y-5 lg:grid-cols-2 w-full py-10 rounded-lg">
+            class="container text-gray-600 dark:text-slate-300 bg-white dark:bg-slate-950 grid grid-cols-1 gap-y-5 lg:grid-cols-2 w-full py-10 rounded-lg">
             <div class="sm:px-10 mx-auto px-3 flex flex-col items-center justify-center">
                 <div class="text-center mb-6">
                     <img src="{{ asset('images/InnoPetCareLogo.png') }}" class="dark:invert sm:max-w-[300px] mx-auto"

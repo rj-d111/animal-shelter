@@ -1,7 +1,7 @@
 @extends('layouts/app')
 
 @section('content')
-    <div class="container py-60 mx-auto rounded-lg shadow-lg w-full">
+    <div class="container py-60 mx-auto rounded-lg w-full">
         <div class="flex flex-col md:flex-row">
             <div class="md:w-1/2 mb-4 md:mb-0 flex justify-center">
                 <img src="/images/fur-kiddo.jpg" alt="Fur Kiddo" class="md:w-3/4 lg:w-1/2 rounded-md">
