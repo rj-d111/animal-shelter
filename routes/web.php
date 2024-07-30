@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AdoptedPetController;
+use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\DB;
@@ -31,6 +33,11 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/home', function () {
+    return view('index');
+});
+
+
 Route::get('/login', function () {
     return view('login');
 })->name('login');
@@ -46,18 +53,14 @@ Route::get('/register', function () {
 Route::post('/register', [UserController::class, 'register'])->name('register.submit');
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware('auth')->name('dashboard');
-
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth')->name('dashboard');
 
 Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/appointment', function () {
-    return view('appointment');
-})->name('appointment.show');
+Route::get('/appointment', [AppointmentController::class, 'show'])->middleware('auth')->name('appointment');
+Route::post('/appointment', [AppointmentController::class, 'store'])->middleware('auth')->name('appointment.store');
 
 // Route::get('/adopt', function () {
 //     return view('adopt');

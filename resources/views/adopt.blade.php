@@ -33,7 +33,7 @@
             <!-- Pet Cards Grid -->
             <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <template x-for="pet in filteredPets" :key="pet.id">
-                    <div class="bg-white dark:bg-slate-950 p-4 rounded-lg shadow-lg text-center">
+                    <div class="bg-white dark:bg-slate-700 p-4 rounded-lg shadow-lg text-center">
                         <div class="select-none">
                             <div class="w-40 h-40 mx-auto rounded-full overflow-hidden">
                                 <img :src="'{{ asset('') }}' + pet.image_path" :alt="pet.name"
@@ -73,6 +73,7 @@
                         this.currentPage++;
                         this.fetchPets();
                     }
+                    
                 },
                 prevPage() {
                     if (this.currentPage > 1) {

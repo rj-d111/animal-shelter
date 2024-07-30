@@ -2,15 +2,15 @@
     {{-- 1st Navbar --}}
     <div class="bg-pink-400 hidden lg:block">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-end items-center py-1">
-            <a href="{{ url('help')}}" class="hover:text-gray-300 flex items-center space-x-1 mr-4">
+            <a href="{{ url('help')}}" class="text-white hover:text-gray-300 flex items-center space-x-1 mr-4">
                 <i class="fa fa-question-circle" aria-hidden="true"></i>
                 <span>Help</span>
             </a>
-            <a href="{{url('notifications')}}" class="hover:text-gray-300 flex items-center space-x-1 mr-4">
+            <a href="{{url('notifications')}}" class="text-white hover:text-gray-300 flex items-center space-x-1 mr-4">
                 <i class="fa fa-bell" aria-hidden="true"></i>
                 <span>Notifications</span>
             </a>
-            <a href="{{url('dashboard')}}" class="hover:text-gray-300 flex items-center space-x-1">
+            <a href="{{url('dashboard')}}" class="text-white hover:text-gray-300 flex items-center space-x-1">
                 <span>Dashboard</span>
             </a>
         </div>
@@ -20,7 +20,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-6">
                 <div class="flex items-center space-x-4">
-                    <a href="#">
+                    <a href="{{ url('/') }}">
                         <img src="{{ asset('images/SPAS_logo.png') }}" alt="San Pedro Animal Shelter" class="h-20">
                     </a>
                     <h1 class="text-xl font-bold hidden lg:block">San Pedro Animal Shelter</h1>
